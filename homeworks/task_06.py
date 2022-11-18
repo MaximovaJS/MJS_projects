@@ -31,3 +31,11 @@ while i<3:
     i+=1
 
 print('Три песни звучат',round(alltime,2),'минут')
+
+# Вариант 2
+time = 0
+for song in sample(tuple(my_favorite_songs), 3):
+    print(song)
+    time += my_favorite_songs[song]
+
+print(f'Три песни звучат {round(time, 2)}')
