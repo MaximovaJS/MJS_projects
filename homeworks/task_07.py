@@ -62,3 +62,5 @@ while i<len(quantity):
 
 
 print(f'{user_input} - ', quan,'шт, стоимость', cost,'руб')
+
+# Отлично
